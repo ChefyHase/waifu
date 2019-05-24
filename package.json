@@ -1,0 +1,20 @@
+{
+  "name": "waifu",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "waifu": "bin/waifu.js"
+  },
+  "author": "ChefyHase <chefyhase@gmail.com> (http://chefyhase.example.com)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "danbooru": "^3.1.0",
+    "node-fetch": "^2.6.0",
+    "term-img": "^4.1.0"
+  }
+}
